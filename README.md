@@ -20,12 +20,12 @@ This repository contains the code for a Jetson Nano robot that navigates autonom
  * Jetson.GPIO
  * OpenCV
 
-### DepthCamera Class
+## DepthCamera Class
 - Initializes the RealSense pipeline for depth and color streams.
 - Fetches depth and color frames using RealSense camera.
 - Manipulates the images and obtains depth information for obstacle detection.
 
-### GPIO Control and Navigation Logic
+## GPIO Control and Navigation Logic
 - Sets up GPIO pins for left, right, and center object detection scenarios.
 - Utilizes depth data from RealSense to detect obstacles in different regions.
 - Controls the GPIO pins to steer the robot based on the detected obstacles and navigational requirements.
